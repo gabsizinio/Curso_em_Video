@@ -1,0 +1,11 @@
+from random import randint
+#v1 = randint(0, 10)
+#v2 = randint(0, 10)
+#v3 = randint(0, 10)
+#v4 = randint(0, 10)
+#v5 = randint(0, 10)
+#num = (v1, v2, v3, v4, v5)
+num = (randint(0, 10), randint(0, 10), randint(0, 10), randint(0,10), randint(0, 10))
+print(f"Os valores sorteados foram: {num}.")
+print(f"O maior valor sorteado é {sorted(num)[4]}.")
+print(f"O menor valor sorteado é {sorted(num)[0]}.")
